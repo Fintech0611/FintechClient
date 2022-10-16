@@ -52,8 +52,66 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="NPLot\AdapterUtils.cs" />
+    <Compile Include="NPLot\ArrowItem.cs" />
+    <Compile Include="NPLot\AxesConstraint.cs" />
+    <Compile Include="NPLot\Axis.cs" />
+    <Compile Include="NPLot\BarPlot.cs" />
+    <Compile Include="NPLot\BasePlot.cs" />
+    <Compile Include="NPLot\BaseSequencePlot.cs" />
+    <Compile Include="NPLot\Bitmap.PlotSurface2D.cs" />
+    <Compile Include="NPLot\CandlePlot.cs" />
+    <Compile Include="NPLot\DateTimeAxis.cs" />
+    <Compile Include="NPLot\FilledRegion.cs" />
+    <Compile Include="NPLot\FontScaler.cs" />
+    <Compile Include="NPLot\Grid.cs" />
+    <Compile Include="NPLot\HistogramPlot.cs" />
+    <Compile Include="NPLot\HorizontalLine.cs" />
+    <Compile Include="NPLot\IDrawable.cs" />
+    <Compile Include="NPLot\IGradient.cs" />
+    <Compile Include="NPLot\ImagePlot.cs" />
+    <Compile Include="NPLot\IPlot.cs" />
+    <Compile Include="NPLot\IPlotSurface2D.cs" />
+    <Compile Include="NPLot\ISequencePlot.cs" />
+    <Compile Include="NPLot\ISurface.cs" />
+    <Compile Include="NPLot\ITransform2D.cs" />
+    <Compile Include="NPLot\LabelAxis.cs" />
+    <Compile Include="NPLot\LabelPointPlot.cs" />
+    <Compile Include="NPLot\Legend.cs" />
+    <Compile Include="NPLot\LegendBase.cs" />
+    <Compile Include="NPLot\LinearAxis.cs" />
+    <Compile Include="NPLot\LinearGradient.cs" />
+    <Compile Include="NPLot\LinePlot.cs" />
+    <Compile Include="NPLot\LogAxis.cs" />
+    <Compile Include="NPLot\Marker.cs" />
+    <Compile Include="NPLot\MarkerItem.cs" />
+    <Compile Include="NPLot\NPlotException.cs" />
+    <Compile Include="NPLot\PageAlignedPhysicalAxis.cs" />
+    <Compile Include="NPLot\PhysicalAxis.cs" />
+    <Compile Include="NPLot\PiAxis.cs" />
+    <Compile Include="NPLot\PiePlot.cs" />
+    <Compile Include="NPLot\PlotSurface2D.cs" />
+    <Compile Include="NPLot\PointD.cs" />
+    <Compile Include="NPLot\PointPlot.cs" />
+    <Compile Include="NPLot\RectangleBrushes.cs" />
+    <Compile Include="NPLot\RectangleD.cs" />
+    <Compile Include="NPLot\SequenceAdapter.cs" />
+    <Compile Include="NPLot\StartStep.cs" />
+    <Compile Include="NPLot\StepGradient.cs" />
+    <Compile Include="NPLot\StepPlot.cs" />
+    <Compile Include="NPLot\TextItem.cs" />
+    <Compile Include="NPLot\TradingDateTimeAxis.cs" />
+    <Compile Include="NPLot\Transform2D.cs" />
+    <Compile Include="NPLot\Utils.cs" />
+    <Compile Include="NPLot\VerticalLine.cs" />
+    <Compile Include="NPLot\Windows.PlotSurface2D.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
